@@ -28,6 +28,6 @@ jobs:
       - name: installing surge
         run: npm install --Global surge
       - name: deploying using surge
-        run: surge ./bootcamp-awais.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./ bootcamp-awais.surge.sh --token ${{ secrets.SURGE_TOKEN }}
           echo Add other actions to build,
           echo test, and deploy your project.
